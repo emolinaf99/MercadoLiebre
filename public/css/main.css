@@ -26,12 +26,6 @@ h1 {
     margin-left:1rem;
 }
 
-.cajita {
-    display:grid;
-    grid-template-columns: 30% 70%;
-    gap:1rem;
-}
-   
 .caja {
     display:flex;
     flex-direction: column;
@@ -98,9 +92,14 @@ h1 {
         grid-template-columns: 45vw 45vw;
         min-width: auto;
         justify-content: center;
-
     }
 
+    .cajita {
+    display:grid;
+    grid-template-columns: 30% 70%;
+    gap:2rem;
+   }
+    
     .ofertas {
         display: grid;
         grid-template-columns: 45vw 45vw;
@@ -128,6 +127,8 @@ h1 {
    } 
 
    .cajita {
+    display:grid;
+    grid-template-columns: 30% 70%;
     gap:2rem;
    }
 
