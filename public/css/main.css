@@ -94,11 +94,6 @@ h1 {
         justify-content: center;
     }
 
-    .cajita {
-    display:grid;
-    grid-template-columns: 30% 70%;
-    gap:2rem;
-   }
     
     .ofertas {
         display: grid;
