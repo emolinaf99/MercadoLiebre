@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    width: 100vw;
+
+}
+
+header{
+    background-color: #EAC926;
+    width: 100vw;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content: center;
+}
+
+.logo {
+    max-width:33%;
+    display: flex;
+}
+
+.lupa {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    cursor:pointer;
+    border:solid 1px #03264C;
+    height: 2rem;
+    font-size: 0.625rem;
+    width: 5vw;
+}
+
+.barra-busqueda {
+    height: 2rem;
+    border: solid 0.0625rem #03264C;
+    width: 40vw;
+    font-size: 12px;
+    border-bottom-left-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+}
+
+.encabezado {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 100vw;
+    gap: 2rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+h5 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    width: 33%;
+}
+
+.barra-inicio{
+    display: flex;
+    justify-content: space-between;
+    border-top: #03264C solid 0.0625rem;
+    padding: 0.5rem 1rem;
+    padding-left: 0rem;
+
+    
+}
+
+.site li {
+    border-right: #03264C 1px solid;
+    padding-right: 3.3vw;
+    padding-left:3.3vw;
+}
+
+.site {
+    font-size: 12px;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    padding-left: 1.5rem;
+    justify-content: flex-start;
+}
+
+.login-navbar {
+    font-size: 12px;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-right: 1.5rem;
+    justify-content: flex-end;
+}
+
+.burger-menu {
+    background-color: #1259c3;
+    color: #ebebeb;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin:auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.site li a, .login-navbar li a {
+    text-decoration: none;
+    color:black;
+}
+
+
+.banner {
+    width: 100vw;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .barra-inicio {
+        display:none;
+    }
+
+    .encabezado h5{ 
+        display: none;
+    }
+
+    .logo, .busqueda{
+        max-width: 50%;
+    }
+
+
+    .texto-site {
+        font-size: 12px;
+        font-weight: normal;
+        width: 100vw;
+        text-align: center;
+        padding: 2rem 3rem;
+        padding-top: 0rem;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .burger-menu {
+        display: none;
+    }
+    
+    .texto-site {
+        display:none;
+    }
+
+
+}
+
+    

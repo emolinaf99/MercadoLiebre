@@ -1,0 +1,105 @@
+@import url("footer.css");
+@import url("header.css");
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    border:none;
+}
+
+.banner {
+    display: none;
+}
+
+p {
+    padding-bottom: 15px;
+    font-weight:500;
+}
+
+.b{
+    border: 1px solid #666;
+    width: 50vw;
+    height: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw;
+}
+
+h1{
+    color:#03264C;
+    font-size: 30px;
+    padding-bottom: 4vw;
+    text-align: center;
+
+}
+
+.datos {
+    text-align: left;
+    padding-bottom: 5vh;
+    border: #666 1px solid;
+    padding:2rem 2rem;
+    background-color: white;
+}
+
+.perfil-de-usuario {
+    padding-bottom: 15px;
+    padding-top: 2vh;
+}
+
+.interes {
+    padding-bottom: 15px;
+    padding-top: 2vh;
+}
+
+.foto {
+    padding-top:10px ;
+    border:none
+}
+
+legend {
+    font-weight: 500;
+}
+
+.enviar {
+    background-color:#EAC926;
+    font-weight: bold;
+    padding:0.5rem;
+    color: #03264C;
+    display: block;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.enviar-block {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.fecha {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .menu-block {
+    padding-bottom: 2rem;
+}
+
+}

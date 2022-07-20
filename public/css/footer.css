@@ -1,0 +1,49 @@
+.descripcion-lista-pie {
+    text-align: center;
+    color:#666;
+    font-size: 12px;
+    padding-right:3.125rem;
+    padding-left:3.125rem;
+}
+
+.lista-pie {
+    text-align: center;
+    list-style-type: none;
+    color:#666;
+    padding-right:3.125rem;
+    padding-left:3.125rem;
+}
+
+.copyright {
+    text-align: left;
+    color:#666;
+    font-size: 12px;
+    padding-top:2.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    list-style: none;
+    background-color: white;
+    margin: 0 9px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+
+}
+
+.caja-footer {
+    padding-top:3.125rem;
+    margin: 0 9px;
+    background-color: white;
+}
+
+.icono {
+    color:#1259c3;
+    text-align: center;
+    font-size:2rem;
+    line-height:0.625rem;
+    margin-bottom:0.625rem;
+}
