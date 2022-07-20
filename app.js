@@ -1,14 +1,15 @@
 const express = require("express");
-const path = require ("path");
-
 const app = express ();
+const port = process.env.PORT || 3000;
+app.listen (port, () => {
+    console.log ("Servicio Funcionando")
+})
 
+const path = require ("path");
 const publicPath = path.resolve(__dirname,"./public") ;
 app.use(express.static(publicPath));
 
-app.listen (3000, () => {
-    console.log ("Servicio Funcionando")
-})
+
 
 
 app.get("/", (req,res) =>{
