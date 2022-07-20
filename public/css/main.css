@@ -97,7 +97,7 @@ h1 {
         display: grid;
         grid-template-columns: 45vw 45vw;
         min-width: auto;
-        min-height:auto;
+        height:30rem;
         justify-content: center;
 
     }
@@ -106,7 +106,7 @@ h1 {
         display: grid;
         grid-template-columns: 45vw 45vw;
         min-width: auto;
-        min-height: auto;
+        height:20rem;
         justify-content: center;
         align-items: center; 
     }
